@@ -1,131 +1,212 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Joshua Cachola - Splitsmart</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-		<link rel="manifest" href="images/site.webmanifest">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <head>
+    <title>Joshua Cachola - Splitsmart</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="https://ss-splitsmart.herokuapp.com" class="logo">
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span
+            ><span class="title">Splitsmart</span>
+          </a>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-							<!-- Logo -->
-								<a href="https://ss-splitsmart.herokuapp.com" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Splitsmart</span>
-								</a>
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="splitsmart.html">Splitsmart</a></li>
+          <li><a href="prova.html">Prova</a></li>
+          <li><a href="abd.html">Already Been Done</a></li>
+          <li><a href="aircnc.html">AirCnC</a></li>
+          <li><a href="skills.html">Skills</a></li>
+        </ul>
+      </nav>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <h1>Expense Management Web Application</h1>
+          <p>
+            Splitsmart is a web application that will allow users to track and
+            manage expenses. It shines in the aspect of lending or borrowing
+            money from friends/family. For example say that you are splitting
+            dinner between a group of friends one night and it would make it
+            easier on the waiter to charge the meal all one card instead of
+            multiple cards. You can open an expense and invite multiple people
+            to the expense to pay you back.
+            <br />
+            <br />
+            I chose to create Splitsmart because I really wanted to create an
+            application with a dynamic frontend. There is a lot of information
+            on one page and it is all easily accessible. For instance if you
+            click on an expense, that action renders a div below the expense to
+            show who is included on the expense, who has paid, and comments on
+            the expense of when someone may pay. The only time it feels like the
+            web application truly serves another static page is when the user
+            wants to pay for a specific expense.
+            <br />
+            <br />
+            One of my main achievements for this web application was the
+            experience I got from implementing Graph QL query structure for my
+            API. I feel Graph QL has made Splitsmart more organized and with the
+            Apollo library made refetching data after a post a breeze giving the
+            application a sense of real-time data updates.
+          </p>
+          <span class="image main"
+            ><img src="images/splitsmart-dashboard.png" alt=""
+          /></span>
+          <p>
+            Splitsmart can: Easily invite friends to expenses.
+          </p>
+          <span class="image main"
+            ><img
+              class="add-expense"
+              src="images/splitsmart-add-expense.png"
+              alt=""
+          /></span>
+          <p>
+            Post comments to keep your friends updated of when they should be
+            expecting a payment.
+          </p>
+          <span class="image main"
+            ><img src="images/splitsmart-chat.png" alt=""
+          /></span>
+          <p>
+            Make payments through paypal or venmo for expenses or record a cash
+            payment.
+          </p>
+          <span class="image main"
+            ><img src="images/splitsmart-settle-up.png" alt=""
+          /></span>
+          <a href="https://github.com/JoshuaCachola/Splitsmart" class="logo">
+            <span class="icon brands fa-github"></span
+            ><span class="title">
+              Splitsmart - Track my updates to the app here!</span
+            >
+          </a>
+        </div>
+      </div>
 
-						</div>
-					</header>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>Get in touch</h2>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="field half">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="field">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li><input type="submit" value="Send" class="primary" /></li>
+              </ul>
+            </form>
+          </section>
+          <section>
+            <h2>Follow</h2>
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://github.com/JoshuaCachola"
+                  <a
+                  href="https://github.com/JoshuaCachola"
+                  class="icon brands style2 fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="splitsmart.html">Splitsmart</a></li>
-							<li><a href="prova.html">Prova</a></li>
-							<li><a href="abd.html">Already Been Done</a></li>
-							<li><a href="prova.html">AirCnC</a></li>
-							<li><a href="skills.html">Skills</a></li>
-						</ul>
-					</nav>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/joshua-cachola-b6bab9194/"
+                  class="icon brands style2 fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://angel.co/u/joshua-cachola"
+                  class="icon brands style2 fab fa-angellist"
+                  ><span class="label">Angel List</span></a
+                >
+              </li>
+            </ul>
+          </section>
+          <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Expense Management Web Application</h1>
-							<p>
-								Got an expense that needs to be split amongst a group of people? Have you ever forgotten to pay someone back? Well
-								forget no more! Splitsmart will handle all of that for you.
-							</p>
-							<span class="image main"><img src="images/splitsmart-dashboard.png" alt="" /></span>
-							<p>
-								Splitsmart can: Easily invite friends to expenses.
-							</p>
-							<span class="image main"><img class="add-expense" src="images/splitsmart-add-expense.png" alt="" /></span>
-							<p>
-								Post comments to keep your friends updated of when they should be expecting a payment.
-							</p>
-							<span class="image main"><img src="images/splitsmart-chat.png" alt="" /></span>
-							<p>
-								May payments through paypal or venmo for expenses or record a cash payment.
-							</p>
-							<span class="image main"><img src="images/splitsmart-settle-up.png" alt="" /></span>
-							<a href="https://github.com/JoshuaCachola/Splitsmart" class="logo">
-								<span class="icon brands fa-github"></span><span class="title"> Splitsmart - Track my updates to the app here!</span>
-							</a>
-						</div>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="https://github.com/JoshuaCachola" <a href="https://github.com/JoshuaCachola" class="icon brands style2 fa-github"><span
-												class="label">GitHub</span></a>
-									<li><a href="https://www.linkedin.com/in/joshua-cachola-b6bab9194/" class="icon brands style2 fa-linkedin"><span
-												class="label">LinkedIn</span></a></li>
-									<li><a href="https://angel.co/u/joshua-cachola" class="icon brands style2 fab fa-angellist"><span class="label">Angel
-												List</span></a></li>
-								</ul>
-							</section>
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
